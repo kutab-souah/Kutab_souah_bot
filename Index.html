@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KUTAB SOUAH</title>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<style>
+body{font-family: sans-serif; background:#f5f1e8; margin:0; padding:20px; text-align:center}
+h1{color:#5a3e1b}
+.book{background:white; border-radius:15px; padding:15px; margin:15px 0; box-shadow:0 4px 10px rgba(0,0,0,0.1)}
+.btn{background:#5a3e1b; color:white; padding:10px 20px; border-radius:10px; text-decoration:none; display:inline-block; margin-top:10px}
+</style>
+</head>
+<body>
+<h1>📚 كُتّاب صواح</h1>
+<p>مرحبا بك في مكتبة الكتب العربية!</p>
+
+<div class="book">
+<h3>📖 كتاب فن اللامبالاة</h3>
+<p>للمؤلف مارك مانسون</p>
+<a class="btn" href="#">قراءة</a>
+</div>
+
+<div class="book">
+<h3>📖 كتاب العادات السبع</h3>
+<p>للمؤلف ستيفن كوفي</p>
+<a class="btn" href="#">قراءة</a>
+</div>
+
+<div class="book">
+<h3>📖 كتاب الأب الغني والأب الفقير</h3>
+<p>للمؤلف روبرت كيوساكي</p>
+<a class="btn" href="#">قراءة</a>
+</div>
+
+<script>
+Telegram.WebApp.ready();
+Telegram.WebApp.expand();
+</script>
+</body>
+</html>
